@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# ML artifacts — too large for GitHub
+ml-server/best_model.pt
+ml-server/scaler_X.pkl
+ml-server/scaler_y.pkl
+scripts/*.csv
+
+# Node
+node_modules/
+server/node_modules/
+client/node_modules/
+
+# Env files — never push secrets
+server/.env
+.env
+
+# Vite build output
+client/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
